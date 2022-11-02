@@ -187,3 +187,9 @@ I highly recommend the book of refactoring.guru.  It´s a book that explains all
 + Visitor  
 
 
+
+# Let´s Start!  
+#### From now on, all comments are about the live video and the code that was implemented!!  
+
+
+
