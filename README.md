@@ -1,5 +1,2 @@
 # Backend Learning - Clean Architecture NodeJS API  
-[](github/license/:leandro-gehlen/:
-BL-clean-architecture-node-api
-)
-
+(https://img.shields.io/github.com/leandro-gehlen/BL-clean-architecture-node-api/blob/main/LICENCE)
