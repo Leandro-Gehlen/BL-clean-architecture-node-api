@@ -142,16 +142,45 @@ This principle is respected by using interfaces. When you use an interface you i
 ## Gang of Four (GoF) & Design Patterns  
 
 ### [Reference - Refactoring.guru](www.refactoring.guru)  
+
+I highly recommend the book of refactoring.guru.  It´s a book that explains all the 22 design patterns of GoF.  
+
 ![image 1](https://user-images.githubusercontent.com/114420790/199592384-2a09e50a-82ba-4fd9-b3f6-1b7d70caba25.png)
 
 
+## Creational Patterns  
+
++ Factory Method
++ Abstract Factory
++ Builder
++ Prototype
++ Singleton  
+
+
+## Structural Design Patterns  
+
++ Adapter
++ Composite
++ Decorator
++ Proxy
++ Bridge
++ Facade
++ Flyweight
 
 
 
 
+## Behavioral Design Patterns  
 
-
-
-
++ Chain of Responsability
++ Command
++ Iterator
++ Mediator
++ Memento
++ Observer
++ State
++ Strategy
++ Template Method
++ Visitor  
 
 
