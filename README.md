@@ -36,6 +36,14 @@ Also, **my main objective isn´t just to know how to do it, but also try to iden
 
 ![CleanArchitecture](https://user-images.githubusercontent.com/114420790/199520508-31a35042-e152-4a17-abad-2a91e5722790.jpg)
 
+##**SOLID PRINCIPLES**
+
++ S =>  The Single Responsibility Principle
++ O =>  The Open-Closed Principle
++ L =>  The Liskov Substitution Principle
++ I =>  The Interface Segregation Principle
++ D =>  The Dependency Inversion Principle
+
 
 
 
