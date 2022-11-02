@@ -139,6 +139,9 @@ This principle is respected by using interfaces. When you use an interface you i
 
 
 
+## Gang of Four (GoF) & Design Patterns  
+
+![]()
 
 
 
