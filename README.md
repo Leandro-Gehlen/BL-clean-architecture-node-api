@@ -200,5 +200,11 @@ The setup of my project will be the setup that **Manguinho** shows on one other 
 It´s a setup for TDD - Test Driven Development , but seems to be the same that he used on the live.So, I´m going to use it.To watch the videos where he shows how to setup a TDD project, [click here](https://www.youtube.com/watch?v=kIlT5dxAmDc&list=PL9aKtVrF05DxIrtD3CuXGnzq8Q0IZ-t8J&index=2)
 
 
+### Dependencies Instalation  
 
+```
+npm i -D typescript @types/node  
+tsc -init
+
+```
 
