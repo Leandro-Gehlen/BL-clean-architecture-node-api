@@ -19,7 +19,7 @@ The main resource of this activite is [**this live**](https://www.youtube.com/wa
 
 ["Uncle Bob" BLOG](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
-"By separating the software into layers, and conforming to The Dependency Rule, you will create a system that is intrinsically testable, with all the benefits that implies. When any of the external parts of the system become obsolete, like the database, or the web framework, you can replace those obsolete elements with a minimum of fuss."
+"By separating the software into layers, and conforming to **The Dependency Rule**, you will create a system that is intrinsically **testable**, with all the benefits that implies. When any of the external parts of the system become obsolete, like the database, or the web framework, **you can replace** those **obsolete elements with a minimum of fuss**."
 
 
 
