@@ -46,7 +46,50 @@ Also, **my main objective isn´t just to know how to do it, but also try to iden
 + **D** =>  The Dependency Inversion Principle  
 
 ## **The Single Responsibility Principle**  
+  
+The Single Responsibility Principle states that **a class should do one thing and therefore it should have only a single reason to change.**  
 
+**Trick**   
+
+
+  + **If you ask yourself what your class does and the answer is something AND/OR oneother thing, chances are that the class doesn’t adhere to the Single responsibility principle.**  
+
+Robert C. Martin(Uncle Bob) says:
+
+"Gather together the things that change for the same reasons. Separate those things that change for different reasons."  
+So, it´s nice to check if you are not disrespecting the Single Responsability Principle.
+
+## The Open-Closed Principle  
+  
+The Open-Closed Principle requires that classes should be open for extension and closed to modification.
+
+Modification means changing the code of an existing class, and extension means adding new functionality.
+
+**Open for Extension:**  
+  + adding new functionality(create or change methods ON INSTANCES/OBJECTS)   
+
+
+
+**Closed for Modification:**
+  +  changing the code of existing class(make changes ON CLASSES) 
+
+
+The main question is...**how do we do it?!**
+
+There are some **DESIGN PATTERS** that makes it possible to code respecting the **Open-Closed Principle.**
+
++ **Composite**    
++ **Decorator**  
++ **Proxy**  
++ **Strategy**  
+
+
+
+Everything is chained on Clean Architecture.
+You will use design patterns to achieve SOLID principles implementation while implements clean architecture.
+That´s why create a good quality code isn´t easy.You must master all those concepts and learn how to implement them!
+
+I will ve talking about the **Gang of Four** and their **22 Design Patterns** after SOLID principles.  
 
 
 
