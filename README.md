@@ -189,7 +189,7 @@ I highly recommend the book of refactoring.guru.  It´s a book that explains all
 
 
 # Let´s Start!  
-#### From now on, all comments are about the live video and the code that was implemented!!  
+#### From now on, all comments are about [**the youtube live video**](https://www.youtube.com/watch?v=P0gpCCA8ZPs&t=9s) and the code that was implemented by **Rodrigo Manguinho!!**  
 
 
 
