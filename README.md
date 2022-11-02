@@ -92,6 +92,25 @@ That´s why create a good quality code isn´t easy.You must master all those con
 I will ve talking about the **Gang of Four** and their **22 Design Patterns** after SOLID principles.  
 
 
+**IMPORTANT** 
+
+Do not use inherance on your code. That´s possible and I´m sure some one told you that it´s a bennefit from OOP.
+You can extends the class and create new personalized objects, with polimorphism by changing also their behavier(methods) and implementing new ones.
+Ok...**that´s not you should do from now on!**
+
+------------
+>
+>**What should I do?!**  
+>
+>If you need to extend a class, that´s fine. But you should not extend concrete classes. That means you should create an abstract class or you should create an   >interface to be implemented by those concrete classes that you need to create.
+>That´s important because you´ll be also respecting the DEPENDENCY INVERSION PRINCIPLE from soli**D**.
+>Also, you will not be chaining the classes together, and that independency is amazing.
+>
+>Use interfaces insted of extend the parent class. Just create an interface, a contract with the parent class especifications.
+>
+---------
+
+
 
 
 
