@@ -141,7 +141,9 @@ This principle is respected by using interfaces. When you use an interface you i
 
 ## Gang of Four (GoF) & Design Patterns  
 
-![]()
+### [Reference - Refactoring.guru](www.refactoring.guru)  
+![image 1](https://user-images.githubusercontent.com/114420790/199592384-2a09e50a-82ba-4fd9-b3f6-1b7d70caba25.png)
+
 
 
 
