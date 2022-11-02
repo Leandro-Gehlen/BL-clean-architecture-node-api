@@ -148,7 +148,8 @@ I highly recommend the book of refactoring.guru.  It´s a book that explains all
 ![image 1](https://user-images.githubusercontent.com/114420790/199592384-2a09e50a-82ba-4fd9-b3f6-1b7d70caba25.png)
 
 
-## Creational Patterns  - Creational design patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.  
+## Creational Patterns  
+#### Creational design patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.  
 
 + Factory Method
 + Abstract Factory
@@ -157,7 +158,8 @@ I highly recommend the book of refactoring.guru.  It´s a book that explains all
 + Singleton  
 
 
-## Structural Design Patterns  -  Structural design patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.  
+## Structural Design Patterns  
+#### Structural design patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.  
 
 + Adapter
 + Composite
@@ -170,7 +172,8 @@ I highly recommend the book of refactoring.guru.  It´s a book that explains all
 
 
 
-## Behavioral Design Patterns  -  Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects.  
+## Behavioral Design Patterns  
+#### Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects.  
 
 + Chain of Responsability
 + Command
