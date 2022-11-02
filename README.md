@@ -37,7 +37,7 @@ Also, **my main objective isn´t just to know how to do it, but also try to iden
 ![CleanArchitecture](https://user-images.githubusercontent.com/114420790/199520508-31a35042-e152-4a17-abad-2a91e5722790.jpg)  
  
 
-## **SOLID Principles**  
+## **SOLID Principles**  //  [**Ref - www.freecodecamp.com**](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
 
 + **S** =>  The Single Responsibility Principle
 + **O** =>  The Open-Closed Principle
