@@ -102,13 +102,44 @@ Ok...**that´s not you should do from now on!**
 >
 >**What should I do?!**  
 >
->If you need to extend a class, that´s fine. But you should not extend concrete classes. That means you should create an abstract class or you should create an   >interface to be implemented by those concrete classes that you need to create.
->That´s important because you´ll be also respecting the DEPENDENCY INVERSION PRINCIPLE from soli**D**.
->Also, you will not be chaining the classes together, and that independency is amazing.
+>If you need to extend a class, that´s fine. But you should not **extend** , but **implement** new classes. That means you should create an abstract class or you should create an interface to be implemented by those concrete classes that you need to create.
+>That´s important because you´ll be also might be respecting the DEPENDENCY INVERSION PRINCIPLE from soli**D** if those classes are on a more external layer.
+>Also, you will not be chaining the concrete classes together, and that independency is the objective.
 >
->Use interfaces insted of extend the parent class. Just create an interface, a contract with the parent class especifications.
+>**Use interfaces insted of extend the parent class. Just create an interface, a contract with the parent class especifications and implements it.Leave the parent concrete class alone.Do not extend it.
 >
 ---------
+
+
+## The Liskov Substitution Principle  
+
+The better way to understand this principle is to realise that the children class is an EXTENSION of the parent class. So, it has some boundaries established for the parent.
+
+Parameters +
+Return - 
+
+The Liskov Substitution Principle states that subclasses should be substitutable for their base classes.
+
+This principle is very dangerous, because it´s hard to identify on code.
+
+## The Interface Segregation Principle  
+
+This principle tell us that we should create small interfaces that have only the methods that the concrete class that will be implementing it needs.
+
+If you have a contract with one or more method that the class that will be implementing the interface will never use, you are just creating more complexity and increasing the chances of a software crash.
+
+The inharence allows that a class have just one parent class. But any class can have multiple interfaces.
+So, it´s better create many interfaces. One to each one of your classes needs.
+
+##  The Dependency Inversion Principle  
+
+The Dependency Inversion principle states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.  
+
+This principle is respected by using interfaces. When you use an interface you invert the dependencie and inside layers won´t know outside layers.
+
+
+
+
 
 
 
