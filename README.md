@@ -8,6 +8,10 @@
 &  
 [**Rodrigo Manguinho**](https://www.youtube.com/c/MangoDeveloper/about)🚀  
 
+### Github Repo Reference  
+
+GITHUB Rodrigo Manguinho - [Live Repo](https://github.com/rmanguinho/clean-ranking-loader) 
+
 ## About This Repo  
 
 The main resource of this activity is [**this live**](https://www.youtube.com/watch?v=P0gpCCA8ZPs&t=9s) that these brazilian giants devs have made. **Rodrigo Branas** and **Rodrigo Manguinhos**.  
