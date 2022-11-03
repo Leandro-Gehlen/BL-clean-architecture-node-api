@@ -209,7 +209,5 @@ It´s a setup for TDD - Test Driven Development , but seems to be the same that 
 ```
 npm i -D typescript @types/node  
 tsc -init
-
-
 ```
 
