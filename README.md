@@ -206,8 +206,7 @@ The setup of my project will be the setup that **Manguinho** shows at one other 
 It´s a setup for TDD - Test Driven Development , but seems to be the same that he used on the live and also that he uses on his [course](https://rmanguinho.github.io/).So, I´m going to use it too.To watch the videos where he shows how to setup a node project like him, [click here](https://www.youtube.com/watch?v=vV1wQ6GFH0A)
 ### Dependencies Instalation  
 
-```
-npm i -D typescript @types/node  
-tsc -init
-```
+# My Own Comments  
+
+
 
