@@ -11,7 +11,8 @@
       "standard"
     ],
     "*.js": [
-      "standard"
+      "standard --fix",
+      "add"
     ]
   },
   "husky": {
