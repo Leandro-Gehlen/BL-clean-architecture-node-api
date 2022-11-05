@@ -204,9 +204,13 @@ I highly recommend the book of refactoring.guru.  It´s a book that explains all
 
 The setup of my project will be the setup that **Manguinho** shows at one other of his videos on youtube.
 It´s a setup for TDD - Test Driven Development , but seems to be the same that he used on the live and also that he uses on his [course](https://rmanguinho.github.io/).So, I´m going to use it too.To watch the videos where he shows how to setup a node project like him, [click here](https://www.youtube.com/watch?v=vV1wQ6GFH0A)
-### Dependencies Instalation  
 
-# My Own Comments  
+
+## My Own Comments  
+
+### 1° - After have lint-staged and jusky installed , let´s begain!
+
+
 
 
 
