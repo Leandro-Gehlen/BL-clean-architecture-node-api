@@ -224,9 +224,31 @@ This entity doen´t have any method. No behavior. So a type was the best way to 
 If there was any method / behavior from this entity, the best way would be a abstract class.
 As manguinho told Rodrigo Branas, type and instance are not the same because they have diferent meanings. A type is an instance of just a javascript object and instances will be implemented by concrete classes.
 So, the entity is just a typescript type.
-I´ll create as an interface.
 
-### 4° 
+
+At usecases folder , Manguinho creates his usecase as an interface to be implemented by concrete classes on upper layer
+
+
+### Application-Layer  
+
+Manguinho creates the application-layer that implements as a concrete class the interface that represents the usecase on the domain-layer.  
+But at this layer he is already thinking how data going to came from the infra-layer.
+And that is one of the most IMPORTANT points of the video!
+
+## The way data moves between layers.
+
++ When it cames from outside to inside: 
+  + It cames always from a representation of the entity.(new type created so infra-layer don´t know the domain-layer.Outside layer will just know the inside layer)
+  +  Manguinhos always create a re-write (representation) of the entities so the external layer doens´t know the inner domain layer.   
+
+
++ When it goes from inside to the outside:  
+  + The outside layer will be always implementing an instance of the inside layer, and this instance will be injected as the dependency of the inside layer concrete class.(Implementing que Dependency Inversion Principle of SOLID)
+
+So, what Manguinho does on the service concrete class that implements the usecase interface is to receive as dependency injection an abstraction.That way, the service concrete class will never have a dependency relationship with a concrete class of the more external layer.
+But , as the concrete class of the external layer implements that interface that was injected on the inner concrete class, this inner class are able to comunicate with the outer class and receive data from it.But without any kind of dependecy relationship.
+
+Manguinho creates the entity representation on the application layer because the interface that are injected will return that entity representation.That will be the return from the concrete class of the outer layer.But as it should not know the entity, by creating a representation of the entity on the application layer, he unable the outer layer to know the domain layer.Because the outer layer actually dosen´t know that what it´s returning is actually the entity of the domain.
 
 
 
