@@ -208,7 +208,7 @@ It´s a setup for TDD - Test Driven Development , but seems to be the same that 
 
 ## My Own Comments  
 
-### 1° - After have lint-staged and jusky installed , let´s begain!
+### 1° - After have lint-staged and husky installed , let´s begain!
 
 
 
