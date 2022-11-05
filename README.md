@@ -208,11 +208,10 @@ It´s a setup for TDD - Test Driven Development , but seems to be the same that 
 
 ## My Own Comments  
 
-### 1° - After have lint-staged and husky installed , let´s begin!
 
-### 2° - Manguinhos moched the database. The data was added as source code and the requirements of the project was also added as requirements.
+### Manguinhos moched the database. The data was added as source code and the requirements of the project was also added as requirements.
 
-### 3° - Domain Layer  
+### Domain Layer  
 
 + Entities 
 + usecases / presentation layer
