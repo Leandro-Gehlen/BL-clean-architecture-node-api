@@ -10,7 +10,6 @@ interface Players {
   name: string
   score: number
 }
-
 interface Hero {
   name: string
   level: number
