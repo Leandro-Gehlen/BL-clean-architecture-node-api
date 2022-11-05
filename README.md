@@ -224,6 +224,9 @@ This entity doen´t have any method. No behavior. So a type was the best way to 
 If there was any method / behavior from this entity, the best way would be a abstract class.
 As manguinho told Rodrigo Branas, type and instance are not the same because they have diferent meanings. A type is an instance of just a javascript object and instances will be implemented by concrete classes.
 So, the entity is just a typescript type.
+I´ll create as an interface.
+
+### 4° 
 
 
 
