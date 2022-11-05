@@ -217,7 +217,13 @@ It´s a setup for TDD - Test Driven Development , but seems to be the same that 
 + Entities 
 + usecases / presentation layer
 
-We start by defining our entities. After that , there are 3 ways we can create them with Typescript. By a type , a abstract class or an instance.
+We start by defining our entity. After that , there are 3 ways we can create them with Typescript. By creating a type , an abstract class or an instance.
+
+Maguinhos choose to create a type to represent his entity.
+This entity doen´t have any method. No behavior. So a type was the best way to represent it.
+If there was any method / behavior from this entity, the best way would be a abstract class.
+As manguinho told Rodrigo Branas, type and instance are not the same because they have diferent meanings. A type is an instance of just a javascript object and instances will be implemented by concrete classes.
+So, the entity is just a typescript type.
 
 
 
