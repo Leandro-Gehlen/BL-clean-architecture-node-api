@@ -10,11 +10,11 @@
   "lint-staged": {
     "*.ts": [
       "standard --fix",
-      "add"
+      "git add ."
     ],
     "*.js": [
       "standard --fix",
-      "add"
+      "git add ."
     ]
   },
   "author": "",
