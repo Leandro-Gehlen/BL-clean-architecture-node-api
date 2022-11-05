@@ -2,7 +2,7 @@ export interface RankingScore {
   player: Players
   score: number
   country: string
-  hero: Hero
+  hero: Hero[]
 
 }
 
