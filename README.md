@@ -210,6 +210,17 @@ It´s a setup for TDD - Test Driven Development , but seems to be the same that 
 
 ### 1° - After have lint-staged and husky installed , let´s begin!
 
+### 2° - Manguinhos moched the database. The data was added as source code and the requirements of the project was also added as requirements.
+
+### 3° - Domain Layer  
+
++ Entities 
++ usecases / presentation layer
+
+We start by defining our entities. After that , there are 3 ways we can create them with Typescript. By a type , a abstract class or an instance.
+
+
+
 
 
 
