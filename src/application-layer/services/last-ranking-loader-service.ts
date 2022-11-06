@@ -1,6 +1,7 @@
 
 import { RankingScore } from "../../domain-layer/entities";
-import { LastRankingLoader } from "../../domain-layer/usecases/last-ranking-loader";
+import { LastRankingLoader } from "../../domain-layer/usecases";
+import { LastRankingLoaderRepository } from "../contracts";
 
 
 export class LastRankingLoaderService implements LastRankingLoader {

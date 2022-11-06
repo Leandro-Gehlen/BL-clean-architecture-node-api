@@ -237,17 +237,23 @@ And that is one of the most IMPORTANT points of the video!
 ## The way data moves between layers.
 
 + When it cames from outside to inside: 
-  + It cames always from a representation of the entity.(new type created so infra-layer don´t know the domain-layer.Outside layer will just know the inside layer)
-  +  Manguinhos always create a re-write (representation) of the entities so the external layer doens´t know the inner domain layer.   
+  + It cames always from a representation of the entity.(new type created so infra-layer don´t know the domain-layer.Outside layer will not know the inside layer)
+  +  Manguinhos always create a re-write (representation) of the entity so the external layer doens´t know the inner domain layer.   
 
 
 + When it goes from inside to the outside:  
-  + The outside layer will be always implementing an instance of the inside layer, and this instance will be injected as the dependency of the inside layer concrete class.(Implementing que Dependency Inversion Principle of SOLID)
+  + The outside layer will be always implementing an instance of the inside layer, and this instance will be injected as the dependency of the inside layer concrete class.(Implementing que Dependency Inversion Principle of SOLID and the Dependency Injection Pattern)
 
 So, what Manguinho does on the service concrete class that implements the usecase interface is to receive as dependency injection an abstraction.That way, the service concrete class will never have a dependency relationship with a concrete class of the more external layer.
 But , as the concrete class of the external layer implements that interface that was injected on the inner concrete class, this inner class are able to comunicate with the outer class and receive data from it.But without any kind of dependecy relationship.
 
 Manguinho creates the entity representation on the application layer because the interface that are injected will return that entity representation.That will be the return from the concrete class of the outer layer.But as it should not know the entity, by creating a representation of the entity on the application layer, he unable the outer layer to know the domain layer.Because the outer layer actually dosen´t know that what it´s returning is actually the entity of the domain.
+
+## Data can came from anywhere and with any format  
+
++  The presentation-layer that implements usecases doesn´t know anything about the infra-layer.So it doesn´t know the data format that cames from infra-layer.Neither if it cames from a database or from an external API request.That´s why this data must came from an ADAPTER PATTHERN IMPLEMENTATION.
+
+
 
 
 
