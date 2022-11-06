@@ -214,7 +214,7 @@ It´s a setup for TDD - Test Driven Development , but seems to be the same that 
 ### Domain Layer  
 
 + Entities 
-+ usecases / presentation layer
++ usecases
 
 We start by defining our entity. After that , there are 3 ways we can create them with Typescript. By creating a type , an abstract class or an instance.
 
