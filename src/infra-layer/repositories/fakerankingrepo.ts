@@ -2,6 +2,7 @@ import { LastRankingLoaderRepository } from "../../application-layer/contracts";
 import { RankingScoreEntityRepresentation } from "../../application-layer/representation";
 import { ranking } from "../data/moch-db/datasource";
 
+//ADAPTER CLASS
 export class FakeRankingRepo implements LastRankingLoaderRepository {
     async lastRankingLoader(): Promise<RankingScoreEntityRepresentation[]> {
         // could return just ranking, but intentionaly the ranking data have a diferent data structure from RankingScore Entity
