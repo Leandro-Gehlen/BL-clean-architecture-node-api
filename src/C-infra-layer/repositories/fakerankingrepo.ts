@@ -1,5 +1,5 @@
-import { LastRankingLoaderRepository } from "../../application-layer/contracts";
-import { RankingScoreEntityRepresentation } from "../../application-layer/representation";
+import { LastRankingLoaderRepository } from "../../B-application-layer/contracts";
+import { RankingScoreEntityRepresentation } from "../../B-application-layer/representation";
 import { ranking } from "../data/moch-db/datasource";
 
 //ADAPTER CLASS

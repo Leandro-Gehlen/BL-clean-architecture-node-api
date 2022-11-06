@@ -1,7 +1,7 @@
 
-import { RankingScore } from "../../domain-layer/entities";
-import { RankingUnavailableError } from "../../domain-layer/errors";
-import { LastRankingLoader } from "../../domain-layer/usecases";
+import { RankingScore } from "../../A-domain-layer/entities";
+import { RankingUnavailableError } from "../../A-domain-layer/errors";
+import { LastRankingLoader } from "../../A-domain-layer/usecases";
 import { LastRankingLoaderRepository } from "../contracts";
 
 

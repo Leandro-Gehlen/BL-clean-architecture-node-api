@@ -228,7 +228,7 @@ So, the entity is just a typescript type.
 At usecases folder , Manguinho creates his usecase as an interface to be implemented by concrete classes on upper layer
 
 
-### Application-Layer  
+### Application Layer  
 
 Manguinho creates the application-layer that implements as a concrete class the interface that represents the usecase on the domain-layer.  
 But at this layer he is already thinking how data going to came from the infra-layer.
@@ -251,7 +251,10 @@ Manguinho creates the entity representation on the application layer because the
 
 ## Data can came from anywhere and with any format  
 
-+  The presentation-layer that implements usecases doesn´t know anything about the infra-layer.So it doesn´t know the data format that cames from infra-layer.Neither if it cames from a database or from an external API request.That´s why this data must came from an ADAPTER PATTHERN IMPLEMENTATION.
++  The application-layer that implements usecases doesn´t know anything about the infra-layer.So it doesn´t know the data format that cames from infra-layer.Neither if it cames from a database or from an external API request.That´s why this data must came from an ADAPTER PATTHERN IMPLEMENTATION.
+
+### Infra Layer  
+
 
 
 
