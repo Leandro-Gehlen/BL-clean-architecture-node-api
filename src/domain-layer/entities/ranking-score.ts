@@ -1,14 +1,14 @@
 export type RankingScore = {
     player: Players;
     score: number;
-    country: string;
-    hero: Hero[];
+    matchDate: Date;
+    heroes: Hero[];
 
 }
 
 type Players = {
     name: string;
-    score: number;
+    country: string;
 }
 type Hero = {
     name: string;
