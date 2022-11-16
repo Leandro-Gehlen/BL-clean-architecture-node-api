@@ -2,6 +2,16 @@
 ![](https://img.shields.io/github/license/leandro-gehlen/BL-clean-architecture-node-api)  
 
 
+```
+>
+> npm install 
+> npm run build
+> npm run start
+> http://localhost:5000/api/ranking/last
+>
+```
+
+
 ## Credits and References  
 
 [**Rodrigo Branas** ](https://www.youtube.com/c/RodrigoBranas)🚀  
